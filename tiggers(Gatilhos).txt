@@ -1,0 +1,12 @@
+Gatilhos/ Triggers do airflow
+
+Trigger Rule
+
+all_success => task é executada se todas as anteriores foram concluidas com sucesso
+all_failed => task executada se todas as anteriores falharam
+all_done => task é executada quando todas as tarefas foram concluidas, independe do status (fail/succes)
+one_sucess => task é executada se pelo menos uma anterior foi concluida com sucesso
+one_failed => task é executada se pelo menos uma anterior falhou
+none_failed => task é executada se nenhuma das anteriores falhou
+none_skipped => task é executada se nenhuma das tarefas	anteriores foi pulada
+dummy => task é executada, independe de status das tarefas anteriores

@@ -1,0 +1,8 @@
+BashOperator => executa um comando shell ou script
+PythonOperator => executa uma função Python
+DummyOperator => não faz nada e é util para fins de organização
+EmailOperator => envia um E-mail
+SQLOperator => executa consulta SQL
+FileSensor => aguarda até que um arquivo seja criado ou modificado
+HttpSensor => aguarda até que uma solicitação HTTP seja bem sucedida
+TriggerDagRunOperator => executa uma DAG de outra DAG
